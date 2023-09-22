@@ -20,7 +20,7 @@ async function searchImage() {
     for (let i = 0; i < data.length; i++) { 
         searchResults.innerHTML += `
         <div class="image-card">
-            <img src="${data[i].urls.small}" alt="">  
+            <img src="${data[i].urls.regular}" alt="">  
             <div class="image-info">
                 <a href="${data[i].urls.small}" target="_blank">${data[i].alt_description}</a>
             </div>  
